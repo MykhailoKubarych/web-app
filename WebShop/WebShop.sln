@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.Api", "WebShop.Api\WebShop.Api.csproj", "{3ABB1692-C5D1-4379-AE4F-E8F6C526FCDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3589A075-590B-409E-99C1-BF5DA1DE15EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.UnitTests", "WebShop.UnitTests\WebShop.UnitTests.csproj", "{10BE8DE3-7CE3-470F-8090-1892C9EF5EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.IntegrationTests", "WebShop.IntegrationTests\WebShop.IntegrationTests.csproj", "{3626948E-A19D-422F-9E70-921C1EC50E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABB1692-C5D1-4379-AE4F-E8F6C526FCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABB1692-C5D1-4379-AE4F-E8F6C526FCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABB1692-C5D1-4379-AE4F-E8F6C526FCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABB1692-C5D1-4379-AE4F-E8F6C526FCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BE8DE3-7CE3-470F-8090-1892C9EF5EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BE8DE3-7CE3-470F-8090-1892C9EF5EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BE8DE3-7CE3-470F-8090-1892C9EF5EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BE8DE3-7CE3-470F-8090-1892C9EF5EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3626948E-A19D-422F-9E70-921C1EC50E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3626948E-A19D-422F-9E70-921C1EC50E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3626948E-A19D-422F-9E70-921C1EC50E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3626948E-A19D-422F-9E70-921C1EC50E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10BE8DE3-7CE3-470F-8090-1892C9EF5EB1} = {3589A075-590B-409E-99C1-BF5DA1DE15EA}
+		{3626948E-A19D-422F-9E70-921C1EC50E8B} = {3589A075-590B-409E-99C1-BF5DA1DE15EA}
+	EndGlobalSection
+EndGlobal
