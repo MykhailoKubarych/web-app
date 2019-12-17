@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
+    ".NETCoreApp,Version=v3.1": {
       "coverlet.collector/1.0.1": {
         "type": "package",
         "build": {
@@ -6566,7 +6566,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.TestHost >= 3.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
@@ -6575,34 +6575,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Mykhailo_Kubarych\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\pet-projects\\abc\\WebShop\\WebShop.IntegrationTests\\WebShop.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\Mykhailo_Kubarych\\Desktop\\web-app\\WebShop\\WebShop.IntegrationTests\\WebShop.IntegrationTests.csproj",
       "projectName": "WebShop.IntegrationTests",
-      "projectPath": "D:\\pet-projects\\abc\\WebShop\\WebShop.IntegrationTests\\WebShop.IntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\pet-projects\\abc\\WebShop\\WebShop.IntegrationTests\\obj\\",
+      "projectPath": "C:\\Users\\Mykhailo_Kubarych\\Desktop\\web-app\\WebShop\\WebShop.IntegrationTests\\WebShop.IntegrationTests.csproj",
+      "packagesPath": "C:\\Users\\Mykhailo_Kubarych\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mykhailo_Kubarych\\Desktop\\web-app\\WebShop\\WebShop.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mykhailo_Kubarych\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://eap-build.w.tr-corporate-nonprod.aws-int.thomsonreuters.com:8624/nuget/EAP/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "projectReferences": {}
         }
       },
@@ -6613,7 +6614,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.AspNetCore.TestHost": {
             "target": "Package",
@@ -6645,7 +6646,16 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
