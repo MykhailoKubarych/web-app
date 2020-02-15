@@ -34,7 +34,7 @@ namespace WebShop.Api.Core
             return ComputeHash(sha256Provider,password + salt) == passwordHash;
         }
         
-        private static string ComputeHash(HashAlgorithm sha256Alg,string value)
+        private static string ComputeHash(HashAlgorithm sha256Alg, string value)
         {
             var bytesArray = sha256Alg.ComputeHash(Encoding.UTF8.GetBytes(value));
             return Convert.ToBase64String(bytesArray);

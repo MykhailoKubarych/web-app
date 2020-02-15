@@ -4,7 +4,6 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShop.Api.Domain;
-using WebShop.Api.Domain.Features.Register;
 using WebShop.Api.Features.User.Get;
 
 namespace WebShop.Api.Controllers

@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using WebShop.Api.Domain.Features.Register;
 using WebShop.Api.Features.User.Authenticate;
+using WebShop.Api.Features.User.Register;
 
 namespace WebShop.Api.Controllers
 {

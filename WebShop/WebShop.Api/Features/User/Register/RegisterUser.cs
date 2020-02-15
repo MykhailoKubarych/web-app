@@ -1,17 +1,13 @@
-﻿using System;
-using System.Data;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using Dapper;
-using Dapper.Contrib.Extensions;
 using FluentValidation;
 using MediatR;
 using WebShop.Api.Core;
 using WebShop.Api.DataAccess;
+using WebShop.Api.Domain;
 
-namespace WebShop.Api.Domain.Features.Register
+namespace WebShop.Api.Features.User.Register
 {
     public class RegisterUser
     {
@@ -64,7 +60,7 @@ namespace WebShop.Api.Domain.Features.Register
         protected override async Task Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
             var (salt, passwordHash) = _passwordProvider.ComputeHashParams(request.Payload.Password);
-            var user = User.Create(request.Payload.Email.ToLower(), salt, passwordHash, Role.Customer);
+            var user = Domain.User.Create(request.Payload.Email.ToLower(), salt, passwordHash, Role.Customer);
             //user.UpdateName("John");
 
 //            using var connection = _sqlConnectionFactory.GetOpenConnection();

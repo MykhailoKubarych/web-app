@@ -1,10 +1,7 @@
-﻿using System.Reflection;
-using FluentValidation;
-using Lamar.Scanning.Conventions;
+﻿using FluentValidation;
 using MediatR;
 using MediatR.Pipeline;
 using Microsoft.Extensions.DependencyInjection;
-using WebShop.Api.Pipelines;
 
 namespace WebShop.Api
 {
