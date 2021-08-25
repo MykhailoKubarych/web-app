@@ -20,7 +20,7 @@
         <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="4.0.2" />
         <PackageReference Include="MediatR" Version="7.0.0" />
         <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
         <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
           <PrivateAssets>all</PrivateAssets>
